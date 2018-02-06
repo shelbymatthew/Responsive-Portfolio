@@ -1,0 +1,440 @@
+body {
+    font-family; 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 100%;
+    background-image: url("../../assets/images/background.png");
+}
+
+main {
+    width: 960px;
+    margin-top: 400px;
+}
+header {
+    width: 1100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:white;
+    overflow: auto;
+    padding: 20px 50px 0 50px;
+    margin: 0px 0 20px 0;
+    z-index: 100;
+    border-bottom: 2px solid #cccccc;
+    
+
+}
+
+header h1 {
+    width: 238px;
+    float: left;
+    font-size: 25pt;
+    background-color: #4aaaa5;
+    padding:  20px 0px 20px 40px;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+
+
+
+}
+
+nav {
+    reset:both;
+    padding: 20px 0 20px 20px;
+    width: 270px;
+    float: left;
+    background-color:white;
+    margin: 5px 0 0 410px;
+
+
+
+}
+nav li {
+    display: inline-block;
+    padding: 0 10px 0 10px;
+}
+
+
+a:link {
+    text-decoration: none;
+    color: black;
+
+
+} 
+a:visited { 
+    text-decoration: none;
+    color: #333;
+
+
+
+} 
+a:hover { 
+    text-decoration: none;
+    color: #d8d8d8;
+
+
+} 
+a:focus { 
+    text-decoration: none;
+
+
+}
+a:active { 
+    text-decoration: none;
+
+
+}
+
+
+main {
+    margin: 0 50px 0 50px;
+    width: 960px;
+
+}
+
+section {
+    background-color: white;
+    float: left;
+    width: 650px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    margin-top: 140px;
+   /* padding: 20px;*/
+}
+
+#h2AboutMe {
+    background-color: white;
+    padding:  40px 40px 40px 20px;
+    font-size: 30pt;
+    border-bottom: 1pt grey solid;
+    margin-bottom: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    
+}
+
+#articleAboutMe {
+    padding: 20px;
+}
+
+p.AboutMe {
+    clear: both;
+    font-size: 40px;
+    padding: 20px;
+    background-color: lightblue;
+}
+#cat {
+    float: left;
+    margin-right: 20px;
+}
+
+#pAboutMe {
+    float: left;
+
+}
+
+
+.left .container {
+    border: 1px solid #DDDDDD;
+    width: 280px;
+    height: 210px;
+    position: relative;
+    float: left;
+    margin: 10px 0px 40px 0px;
+ }
+ .right .container {
+    border: 1px solid #DDDDDD;
+    width: 280px;
+    height: 210px;
+    position: relative;
+    float: right;
+    margin: 10px 0 40px 0;
+ }
+ .tag {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 140px;
+    z-index: 1;
+    background-color:#4aaaa5;
+    padding: 15px 5px 15px 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    width: 270px;
+    text-align: center;
+ }
+
+
+
+ .group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+aside {
+    background-color: white;
+    float: left;
+    width: 270px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin-left: 38px;
+    margin-top: 140px;
+
+
+}
+
+#connectWithMe {
+    font-size: 20pt;
+    margin: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+#ulConnectWithMe {
+    margin-bottom: 20px;
+}
+
+aside li {
+    display: inline-block;
+
+}
+
+footer {
+    clear: both;
+    background-color:#666666;
+    padding: 30px;
+    border-top: #4aaaa5 5px solid;
+    text-align: center;
+    width: 1140px;
+    color: #ffffff;
+
+}
+
+input {
+    width: 604px;
+}
+
+textarea {
+    width: 604px;
+    height: 220px;
+}
+
+button {
+    height: 40px;
+    width: 80px;
+    background-color:#4aaaa5;
+    color: #ffffff;
+    font-size: 15px;
+}
+/*
+*/
+@media screen and (max-width: 768px) {
+    main, body {
+        width: 100%;
+        margin: 0;
+    }
+
+    footer, aside, input, textarea {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    aside {
+        clear: both;
+    }
+    header {
+        width: 100%;
+        position: relative;
+        padding: 0 5%;
+
+    }
+
+    header h1 {
+        width: 30%;
+
+        margin: 0 5% 0 0;;
+        padding: 20px 0 20px 0; 
+        text-align: center; 
+    }
+    
+    section.aboutMe, aside{
+        width: 100%;
+        margin: 5%;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    aside {
+        padding-bottom: 40px;
+    }
+
+    nav {
+        float: left;
+        margin-left: 0;
+    }
+
+
+
+@media screen and (max-width: 980px)  {
+    main, body {
+        width: 100%;
+        margin: 0;
+    }
+
+    footer, aside, input, textarea {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    header {
+        width: 100%;
+        position: relative;
+        padding: 0 5%;
+
+    }
+
+    header h1 {
+        width: 30%;
+
+        margin: 0 5% 0 0;;
+        padding: 20px 0 20px 0; 
+        text-align: center; 
+    }
+    
+    section.aboutMe {
+        width: 40%;
+        margin: 5% 0 5% 5%;
+    }
+
+    aside {
+        width: 270px;
+        margin: 5%;
+
+        float: left;
+        padding-bottom: 40px;
+    }
+
+    nav {
+        float: left;
+        margin-left: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 640px) {
+    main, body {
+        width: 100%;
+        margin: 0;
+    }
+
+    header, nav, footer, aside, input, textarea {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    header h1 {
+        width: 100%;
+        margin: 0;
+        padding: 20px 0 20px 0;  
+    }
+    
+    section.aboutMe, aside, input, textarea{
+        width: 90%;
+        margin: 5%;
+    }
+
+    aside {
+        padding-bottom: 40px;
+    }
+
+    .right .container {
+        float: none;
+
+    }
+    .left .container {
+        float: none;
+    }
+    
+    
+ 
+   
+    /*
+    section aside {
+        margin: 0;
+    }
+
+    header h1 {
+        width: 100%;
+        margin: 0;
+        padding: 20px 0 20px 0;
+   
+    }
+   
+    nav {
+        clear: both;
+
+        padding: 0;
+        margin: 0;
+    }
+    
+*/
+    nav {
+        position: relative;
+        margin: 0;
+        padding: 20px 0;
+        width: 100%;
+        text-align: center;
+    }
+    /*
+    input {
+        width: 90%;
+    }
+    
+    textarea {
+        width: 90%;
+        height: 220px;
+    }
+    
+    button {
+        height: 40px;
+        width: 80px;
+        background-color:#4aaaa5;
+        color: #ffffff;
+        font-size: 15px;
+    }
+    /*
+    aside {clear: both;
+        width: 100%;
+        margin: 0;
+    }
+    */
+    
